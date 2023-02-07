@@ -395,14 +395,5 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <script>  
-      var imgTag = document.getElementsByTagName('img');
-      for (var a=0; a<imgTag.length; a++) {
-        if(imgTag[a].getAttribute('data-src')) {
-           imgTag[a].setAttribute('src',imgTag[a].getAttribute('data-src'));
-           imgTag[a].removeAttribute('data-src');
-        }
-      }
-  </script>
   </body>
 </html>
